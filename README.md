@@ -39,11 +39,11 @@ api.post_operation(
     status="new",
     alarmenabled=True,
     address="Musterweg 4, 12345 Entenhausen", 
-    position={"latitude":"47.592127",·"longitude":"8.296870"}, 
+    position={"latitude":"47.592127","longitude":"8.296870"}, 
     facts="Küchenbrand", 
     ric="10B", 
     number=54321,
-    properties=[{"key":"Fettbrand":"value":"Nein"},{"key":"Noch Personen im Gebäude","value":"Ja"}],
+    properties=[{"key":"Fettbrand","value":"Nein"},{"key":"Noch Personen im Gebäude","value":"Ja"}],
     updateStrategy="none"
     )
 ```
